@@ -5,7 +5,7 @@ import mime from "/node_modules/mime/dist/src/index.js";
 
 let ffmpeg;
 
-let supportedFormats = [];
+const supportedFormats = [];
 
 async function init () {
 

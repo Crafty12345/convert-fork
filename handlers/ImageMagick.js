@@ -2,7 +2,7 @@ import * as Magick from "/node_modules/wasm-imagemagick/dist/magickApi.js";
 
 import mime from "/node_modules/mime/dist/src/index.js";
 
-let supportedFormats = [];
+const supportedFormats = [];
 
 async function init () {
 
